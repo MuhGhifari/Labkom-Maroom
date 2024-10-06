@@ -4,6 +4,8 @@
 using namespace std;
 
 int main() {
+
+	//-------------- PROGRAM XY --------------
 	int a; 
 	int b = 10; 
 	const int jamPerHari = 24; 
@@ -19,11 +21,14 @@ int main() {
 	cout << "Nilai x = " << x << endl; 
 	cout << "Nilai y = " << y << endl; 
 
+	//-------------- PROGRAM BIODATA --------------
+
 	string nama; 
 	int umur; 
 	char kelas; 
 
 	cout << "Masukkan nama\t: "; 
+	cin.ignore();
 	getline(cin, nama); 
 	
 	cout << "Masukkan umur\t: "; 
