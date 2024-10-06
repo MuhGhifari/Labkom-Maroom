@@ -44,6 +44,7 @@ int main() {
 	//====================================== PROGRAM BIODATA ======================================
 
 	cout << "Masukkan nama\t: "; // mengeluarkan teks perintah input
+	cin.ignore(); // menghapus semua input yg dimasukkan ke cin sebelumnya
 	getline(cin, nama); // memasukkan input user ke dalam var "nama"
 	/* Catatan : 
 	jika menggunakan cin untuk string harus dipastikan memakai "getline()"
